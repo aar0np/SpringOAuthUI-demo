@@ -1,0 +1,13 @@
+# rename/copy this file to application.yml and fill-in the id/secret pairs
+#
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: xxxxxxxxxx 
+            clientSecret: xxxxxxxxxx 
+          google:
+            client-id: xxxxxxxxxx 
+            client-secret: xxxxxxxxxx 
